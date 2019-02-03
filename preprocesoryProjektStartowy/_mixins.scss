@@ -6,3 +6,10 @@
     }
 
 }
+
+@mixin stylDiv($color, $typp: div_wazne, $wielkosc: 10px) {
+    ##{$typp} { 
+    background-color: $color;
+    font-size: $wielkosc; 
+}
+}

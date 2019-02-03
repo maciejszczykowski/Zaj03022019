@@ -6,4 +6,4 @@ $color: red, yellow;
 $padingi: (duze: 30px, male: 1px);
 $pading_big: map-get($padingi, duze);
 $pading_min: map-get($padingi, male);
-$gradient: linear-gradient(to right, red , rgb(230, 230, 23));
+$gradient: linear-gradient(to right, red , rgb(230, 230, 23)); 
