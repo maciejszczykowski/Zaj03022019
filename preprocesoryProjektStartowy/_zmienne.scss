@@ -1,0 +1,9 @@
+$text-color: rgba(24, 24, 155, 0.911);
+$marg: 5px;
+$back-color: rgb(180, 180, 224);
+$obramowanie: 1px solid rgb(66, 66, 196);
+$color: red, yellow;
+$padingi: (duze: 30px, male: 1px);
+$pading_big: map-get($padingi, duze);
+$pading_min: map-get($padingi, male);
+$gradient: linear-gradient(to right, red , rgb(230, 230, 23));

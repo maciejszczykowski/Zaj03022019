@@ -1,0 +1,53 @@
+
+@import "_zmienne.scss";
+@import "_mixins.scss";
+
+
+
+p {
+    color: lighten($text-color, 35);
+    padding: $pading_min;
+}
+
+div {
+
+    ul{
+    margin: $marg;
+    border: $obramowanie;
+    }
+    li {
+        margin: $marg * 4;
+    }
+
+}
+
+body {
+    background-color: $back-color;
+    
+}
+
+header {
+    color: $text-color;
+    padding: $pading_big;
+    font: {
+        size: 20px;
+        family: arial; 
+    }
+}
+
+p.important {
+    font-size: 30px;
+    font-weight: solid;
+  }
+  
+  p.veryimportant {
+     @extend p.important;
+     text-align: center;
+   
+  }
+  
+footer {
+    background-image: $gradient;
+}
+
+@include ref(yellow);    
